@@ -1,0 +1,14 @@
+IMG_PATH = "artifacts/Images"
+CAPTION_PATH = "artifacts\captions.txt"
+ENCODER_CKPT = "google/vit-base-patch16-224"
+DECODER_CKPT = "gpt2"
+MODEL_SAVE_DIR = "image_captioner_vit_gpt2"
+HUB_PUSHED_ID = "Vasanth/image_captioner_vit_gpt2"
+MAX_LENGTH = 256
+EARLY_STOPPING = True
+NUM_BEAMS = 4
+N_GRAMS = 3
+BATCH_SIZE = 4
+LOGGING_STEPS = 500
+SAVE_STEPS = 2000
+NUM_EPOCHS = 5
